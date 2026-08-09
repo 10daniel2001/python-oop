@@ -1,28 +1,27 @@
-# Virtual Environment
+# Ambiente virtual
 .venv/
 venv/
+env/
 
-# Python cache
+# PyCharm / JetBrains
+.idea/
+
+# Python
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
 
-# Distribution / packaging
+# Distribuição / build
 build/
 dist/
-*.egg-info/
+*.egg
 
-# VS Code
-.vscode/
-
-# macOS
-.DS_Store
-
-# Linux
-*~
-
-# Environment variables
+# Variáveis de ambiente
 .env
 
-# Logs
-*.log
+# Sistema operacional
+.DS_Store
+Thumbs.db
