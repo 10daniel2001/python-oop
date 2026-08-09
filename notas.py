@@ -1,7 +1,8 @@
 #Oque e uma classe em OOP
-"Classe e o molde do projeto, onde se declara os atributs é os metodos, caracteristicas do objetos"
+"Classe e o molde do objeto, onde se declara os atributs é os metodos, caracteristicas do objetos"
 
 
 #OQUE E O METODO CONTRUTOR __INIT__
-"O metodo INIT e o construtor, do objeto, nele esta todas as caracteristicas do objetos"
-"INiT e chamado de forma automatica sempre quando cria um novo objetos"
+"O método __init__ é o construtor da classe. Ele é chamado"
+"automaticamente toda vez que um objeto é criado, e serve para"
+"inicializar os atributos desse objeto usando o self"
