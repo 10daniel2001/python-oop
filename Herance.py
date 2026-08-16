@@ -8,9 +8,9 @@ class Herance:
 
     def verificarIdade(self):
         if self._age >= 18:
-            print("Vocẽ é maior de idade")
+            print("Você é maior de idade")
         else:
-            print("Vocẽ é menor de idade")
+            print("Você é menor de idade")
 
 # Sub class
 class Filha(Herance):
@@ -27,8 +27,21 @@ class Filha(Herance):
 
 def main():
 
-    super = Herance("Carlos", 25, 2026)
+    pai = Herance("Carlos", 25, 2026)
     #Obejto da super class istaciado
 
     filha = Filha("Daniel", 20, 2021, "Goiania Go")
     #Objeto da subclass istanciado
+
+    "Aqui os metodos das class seram chamados"
+    pai.verificarIdade()
+    filha.imprimir()
+    "Nao ha poliformismo neste codigo pois e um exemplo de Herança"
+
+if __name__=="__main__":
+    main()
+
+    #A saida sera simples apenas para uso didatico
+    "Vocề maior de idade"
+    "Sua cidade e Goiania Go"
+
