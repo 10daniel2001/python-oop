@@ -22,11 +22,13 @@ class Child(Polymorphism):
         # Call the parent class constructor, passing the required arguments
         super().__init__(name, age, is_id=ident)
         self.age = age
-
     # super() é uma função que dá acesso aos métodos da classe pai (super class)
     # de dentro da classe filha (subclass). É assim que a classe filha "herda" e
     # reaproveita o comportamento já definido na classe pai, sem precisar reescrever tudo.
 
+    def print_id(self):
+        print(f"Is Id {self.is_id * 2}")
+        #Outro comportamento pois id multiplica com 2
 
 def main():
     peaple_dad = Polymorphism("david", 49, 2011)
