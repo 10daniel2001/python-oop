@@ -6,3 +6,7 @@
 "O método __init__ é o construtor da classe. Ele é chamado"
 "automaticamente toda vez que um objeto é criado, e serve para"
 "inicializar os atributos desse objeto usando o self"
+
+# ATRIBUTOS DE CLASS
+"Atributos da class, sao as caracteristicas formais, de uma class onde o objeto estanciad herda esses atributos"
+"Exemplos como nome, idade, ou id, sao referencias de um objeto"
